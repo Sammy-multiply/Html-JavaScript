@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #welcome {
+            text-align: center;
+            font-weight: 700;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h2 id="welcome">Welcome To My Tennis Score Keeper</h2s>
+                <div class="column">
+                    <div class="column is-half is-offset-one-quarter">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://media.istockphoto.com/photos/tennis-players-playing-a-match-on-the-court-picture-id817164728?k=20&m=817164728&s=612x612&w=0&h=RCIpXUpXPlbILSNMerp0k3X0a1EQP5stFzRkrNKeZQg="
+                                        alt="tennis player">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="https://media.istockphoto.com/photos/tennis-players-playing-a-match-on-the-court-picture-id817164728?k=20&m=817164728&s=612x612&w=0&h=RCIpXUpXPlbILSNMerp0k3X0a1EQP5stFzRkrNKeZQg="
+                                                alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">Big Sam</p>
+                                        <p class="subtitle is-6">@Sammy_multiply</p>
+                                    </div>
+                                </div>
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        My Tennis Score Keeper
+                                    </p>
+                                </header>
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <h1 class="title is-1"><span id="first">0</span> to <span
+                                                    id="second">0</span></h1>
+                                            <p>Use the button below to store score/point</p>
+
+                                        </div>
+                                        <label for="playto" class="label is-large is-inline">Playing To</label>
+                                        <div class="select is-rounded">
+                                            <select name="" id="range">
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <button id="p1Button" class="is-primary button card-footer-item is-medium">+1 Player
+                                        One</button>
+                                    <button id="p2Button" class="is-info button card-footer-item is-medium">+1 Player
+                                        Two</button>
+                                    <button id="reset"
+                                        class="is-danger button card-footer-item is-medium">Reset</button>
+
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <script src="tennis.js"></script>
+</body>
+
+</html>
